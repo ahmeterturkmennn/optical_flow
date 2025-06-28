@@ -2,7 +2,7 @@
 
 This repository contains the project developed for the **EE584 – Machine Vision** course at METU. The project compares the performance of two optical flow estimation methods: the classical **Lucas-Kanade** algorithm and the modern deep learning-based **HCVFlow**.
 
-[🎥 Watch Demo on YouTube](https://youtu.be/LhAHxa8gRbo)
+[🎥 Watch Explanation on YouTube](https://youtu.be/LhAHxa8gRbo)
 
 ---
 
