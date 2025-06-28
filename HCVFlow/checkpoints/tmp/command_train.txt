@@ -1,0 +1,20 @@
+main.py --resume pretrained_models/sintel.pth --val_iters 24 --inference_video C:/Users/90551/Desktop/EE584/Term Project/video.mp4 --output_path C:/Users/90551/Desktop/EE584/Term Project/flow_out --save_video_flow
+
+main.py --resume pretrained_models/sintel.pth --val_iters 24 --inference_video C:/Users/90551/Desktop/EE584/Term Project/video.mp4 --output_path C:/Users/90551/Desktop/EE584/Term Project/flow_out --save_video_flow
+
+main.py --resume pretrained_models/sintel.pth --val_iters 24 --inference_video C:/Users/90551/Desktop/EE584/Term Project/video.mp4 --output_path C:/Users/90551/Desktop/EE584/Term Project/flow_out --save_video_flow
+
+main.py --resume pretrained_models/sintel.pth --val_iters 24 --inference_video C:/Users/90551/Desktop/EE584/Term Project/video.mp4 --output_path C:/Users/90551/Desktop/EE584/Term Project/flow_out --save_video_flow
+
+main.py --resume pretrained_models/sintel.pth --val_iters 24 --inference_video C:/Users/90551/Desktop/EE584/Term Project/blurred_videos/video_blurred_37.mp4 --output_path C:/Users/90551/Desktop/EE584/Term Project/flow_out_blurred_37 --save_video_flow
+
+main.py --resume pretrained_models/sintel.pth --val_iters 24 --inference_video C:/Users/90551/Desktop/EE584/Term Project/blurred_videos/video_blurred_27.mp4 --output_path C:/Users/90551/Desktop/EE584/Term Project/flow_out_blurred_27 --save_video_flow
+
+main.py --resume pretrained_models/sintel.pth --val_iters 24 --inference_video C:/Users/90551/Desktop/EE584/Term Project/blurred_videos/deney/video.mp4 --output_path C:/Users/90551/Desktop/EE584/Term Project/deney/hcv ^
+
+main.py --resume pretrained_models/sintel.pth --val_iters 24 --inference_video C:/Users/90551/Desktop/EE584/Term Project/blurred_videos/deney/video.mp4 --output_path C:/Users/90551/Desktop/EE584/Term Project/deney/hcv ^
+
+main.py --resume pretrained_models/sintel.pth --val_iters 24 --inference_video C:/Users/90551/Desktop/EE584/Term Project/deney/video.mp4 --output_path C:/Users/90551/Desktop/EE584/Term Project/deney/hcv ^
+
+main.py --resume pretrained_models/sintel.pth --val_iters 24 --inference_video C:/Users/90551/Desktop/EE584/Term Project/kanade_deneyler/ball_original.mp4 --output_path C:/Users/90551/Desktop/EE584/Term Project/hcv_ball_experiment ^
+
