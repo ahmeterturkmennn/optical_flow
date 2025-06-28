@@ -1,0 +1,33 @@
+cd HCVFlow
+
+#environment creation
+conda create -n hcvflow python=3.8
+conda activate hcvflow
+
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+pip install tensorboard
+pip install opencv-python
+pip install scipy
+pip install pillow==9.5.0
+
+#for image inference
+
+hcvflow_env\Scripts\activate
+
+python main.py ^
+  --resume pretrained_models/sintel.pth ^
+  --val_iters 24 ^
+  --inference_dir demo-imgs/first ^
+  --output_path output/first_data
+
+
+#for video inference
+
+
+python main.py ^
+  --resume pretrained_models/sintel.pth ^
+  --val_iters 24 ^
+  --inference_video "C:/Users/90551/Desktop/EE584/Term Project/blurred_videos/video_blurred_27.mp4" ^
+  --output_path "C:/Users/90551/Desktop/EE584/Term Project/flow_out_blurred_27" ^
+--save_video_flow
+
