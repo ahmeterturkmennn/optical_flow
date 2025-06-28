@@ -12,12 +12,16 @@ This project compares HCVFlow and Lucas-Kanade optical flow methods for EE584. H
 
 ---
 
-## 📂 Project Structure
+##📂 Project Structure
+
+
 HCVFlow.pdf is original paper.
 HCVFlow contains project files.
 Run.txt shows how to run project.
 SlideShow.pptx is explanation with slides whereas Term Project.docx is comprehensive explanation paper of project. 
 Lucas_Kanade_Optical_Flow.ipynb contains traditional optical flow method.
+
+
 ---
 
 ## ⚙️ Methods
